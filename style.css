@@ -1,0 +1,307 @@
+body
+{
+	background: url("images/bg.png") fixed;
+	margin: 0px 200px 0px 208px;
+}
+
+
+#bloc_page
+{
+	width: 1010px;
+	height: 100%;
+	background-color: white;
+}
+
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-left: 15px;
+}
+
+
+nav
+{
+	background-color: black;
+	border-radius: 10px;
+	height: 57px;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+
+
+nav ul
+{
+	display: flex;
+	list-style-type: none;
+
+}
+
+
+nav li
+{
+	margin-right: 20px;
+}
+
+
+nav a
+{
+	font-family: Georgia;
+	font-weight: normal;
+	font-size: 1.3em;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+
+
+nav a:hover
+{
+	border-bottom: 2px solid white;
+}
+
+
+#yellow
+{
+	display: inline-block;
+	background-color: #FFD52E;
+}
+
+
+#banniere
+{
+	background: url("images/banner.png") no-repeat;
+	height: 318px;
+	border: 10px solid #EBEBEB;
+	border-radius: 7px;
+	margin: 15px 15px 15px 15px;
+}
+
+
+#contenu
+{
+	margin: 62px 62px 62px 62px;
+}
+
+
+#banniere h1
+{
+	font-family: Georgia;
+	font-weight: normal;
+	font-size: 2.2em;
+	border-bottom: 1px dotted black;
+	width: 340px;
+}
+
+
+#banniere p
+{
+	font-family: Georgia;
+	font-size: 1.1em;
+}
+
+
+#bouton
+{
+	background-color: #181818;
+	color: white;
+	border-radius: 10px;
+	height: 38px;
+	width: 280px;
+}
+
+
+#bouton p
+{
+	font-family: Georgia;
+	text-align: center;
+	font-size: 1em;
+	padding: 8px 8px 0px 8px;
+}
+
+
+section
+{
+	display: flex;
+	margin: 10px 25px 25px 25px;
+}
+
+
+article
+{
+	flex: 3;
+}
+
+
+article h1
+{
+	font-family: Georgia;
+	font-weight: normal;
+	font-size: 1.8em;
+	border-bottom: 1px dotted black;
+	width: 600px;
+}
+
+
+article h2
+{
+	font-family: Georgia;
+	font-weight: normal;
+	font-size: 1.1em;
+}
+
+
+article p
+{
+	font-family: Georgia;
+	font-size: 0.9em;
+}
+
+
+article a
+{
+	text-decoration: none;
+	color: #2B2D2E;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+
+article img
+{
+	border: 1px solid #BABABA;
+	border-radius: 5px;
+}
+
+
+.float
+{
+	float: left;
+	margin-right: 10px;;
+	padding: 8px 8px 8px 8px;
+}
+
+
+.boite
+{
+	margin-top: 5px;
+}
+
+
+aside
+{
+	flex: 1.2;
+}
+
+
+aside h1
+{
+	font-family: Georgia;
+	font-weight: normal;
+	font-size: 1.8em;
+	border-bottom: 1px dotted black;
+}
+
+
+aside h2
+{
+	font-family: Georgia;
+	font-weight: normal;
+	font-size: 1.1em;
+}
+
+
+aside p
+{
+	font-family: Georgia;
+	font-weight: normal;
+	font-size: 0.9em;	
+}
+
+
+aside a
+{
+	text-decoration: none;
+	color: #2B2D2E;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+
+.titre
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+
+.titre p
+{
+	margin-right: 50px;
+}
+
+
+.heure
+{
+	background-color: #F5BF0F;
+	height: 15px;
+	text-align: center;
+	padding: 4px 8px 10px 8px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+
+.border
+{
+	border-bottom: 1px dotted black;
+}
+
+
+#image
+{
+	border: 1px solid #C9C9C9;
+	border-radius: 8px;
+	margin-top: 20px;
+}
+
+
+footer
+{
+	font-family: Georgia;
+	font-size: 0.9em;
+	background-color: black;
+	height: 90px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+#first
+{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+
+#second
+{
+	margin-top: 10px;
+	margin-right: 20px;
+}
+
+
+.pink
+{
+	color: #F200F2;
+}
+
+
+p
+{
+	transition: color 1s;
+}
